@@ -1,2 +1,10 @@
 # Collaborative-Survival-Analysis
-This is an R repository for the "Collaborative Survival Analysis on Predicting Alzheimer's Disease Progression" manuscript. 
+This is the R code repository for implementing methods described in the "Collaborative Survival Analysis on Predicting Alzheimer's Disease Progression" manuscript. 
+
+
+## Abstract 
+The integration of brain imaging and genetics has gained increasing importance in recent years. Combining genetic variations with brain structures not only enhances predictive performance for various neurological and psychiatric disorders, such as Alzheimer's Disease (AD), but also provides insights into phenotypic variance across multiple imaging modalities. Among the studies investigating AD with both imaging and genetic data, how to conduct survival analysis for AD progression using high-dimensional clinical data remains under explored. In this paper, we propose Collaborative Survival Analysis (CoSA), a novel framework that incorporates multiple modalities to predict time-to-event outcomes and simultaneously extract discriminative features. Inspired by Canonical Correlation Analysis (CCA), CoSA combines the Cox Proportional Hazard model (CoxPH) to integrally analyze the predictive performance of high-dimensional modalities for longitudinal outcomes. The proposed method is evaluated through both simulation studies and the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, exhibiting comparable or superior performance across various settings. In the application using the ADNI database, information from genetic biomarkers (SNPs), structural MRI scans (VBM), and PET scans (FDG) is utilized to predict the progression of Mild Cognitive Impairment (MCI) and early Alzheimer’s Disease (AD). The results suggest that the combination of brain imaging and genetic features improves time-to-event prediction over using either modality alone or directly concatenating both. Furthermore, our study identified both brain regions and genes associated with neuron development and memory processing, consistent with existing AD literature.
+
+
+## Authors: 
+Wanwan Xu, Selena Wang, Shen Li, Yize Zhao
